@@ -1,0 +1,55 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Time Schemes",
+                "children": [
+                    {
+                        "caption": "Change to night theme",
+                        "command": "change_night"
+                    },
+                    {
+                        "caption": "Change to day theme",
+                        "command": "change_day"
+                    },
+                    {
+                        "caption": "Toggle Override",
+                        "command": "toggle_dn"
+                        },
+                    {
+                        "caption": "Preferences: Time Schemes",
+                        "command": "open_file",
+                        "args": {
+                            "file": "${packages}/NightDay/NightDay.sublime-settings"
+                        }
+                    },
+                    {
+                        "caption": "Preferences: Key Bindings",
+                        "command": "open_file",
+                        "args": {
+                            "file": "${packages}/NightDay/Default (Windows).sublime-keymap",
+                            "platform": "Windows"
+                        }
+                    },
+                    {
+                    	"caption": "Preferences: Key Bindings",
+                    	"command": "open_file",
+                    	"args": {
+                    		"file": "${packages}/NightDay/Default (OSX).sublime-keymap",
+                    		"platform": "OSX"
+                    	}
+                    },
+                    {
+                    	"caption": "Preferences: Key Bindings",
+                    	"command": "open_file",
+                    	"args": {
+                    		"file": "${packages}/NightDay/Default (Linux).sublime-keymap",
+                    		"platform": "Linux"
+                    	}
+                    }
+                ]
+            }
+        ]
+    }
+]

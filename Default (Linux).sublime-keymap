@@ -1,0 +1,4 @@
+[
+	{ "keys": ["alt+shift+n"], "command": "change_night"},
+	{ "keys": ["alt+shift+d"], "command": "change_day"}
+]
