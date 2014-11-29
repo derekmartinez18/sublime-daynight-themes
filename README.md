@@ -16,7 +16,7 @@ Checks hour every 60 seconds, if between 8PM and 6AM it'll use night theme other
 Drop files of zip (this repo) into a folder called "NightDay" in your SL 2/3 Packages folder.
 
 ### Options ###
-"night" - Set the path from root sublime app data directory to the theme (e.g: Packages/MyThemes/HelloKitty.tmTheme)
+"night" - Set the path from root sublime app data directory to the theme (e.g: Packages/MyThemes/HelloKitty.tmTheme)  
 "day" - Same as above but for a lighter/brighter theme.
 
 ### ToDo ###
