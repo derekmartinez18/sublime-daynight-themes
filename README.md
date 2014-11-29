@@ -13,7 +13,19 @@ I got bored and made this to learn the Sublime API. Works with Windows, Linux, a
 Checks hour every 60 seconds, if between 8PM and 6AM it'll use night theme otherwise it'll use day theme. If you change the theme manually using Sublime's builtin change; the system will ignore and won't change it. Once a better option is added it will overwrite only when enabled.
 
 ### Installing ###
-Drop files of zip (this repo) into a folder called "NightDay" in your SL 2/3 Packages folder.
+Drop files of zip (this repo) into a folder called "NightDay" in your SL 2/3 Packages folder.  
+Having issue with themes changing back and forth? Try this:  
+- Click "Preferences" -> "Settings-Default"  
+- Find "color_scheme" and cut (copy and delete) this entry and save.
+- Now click "Preferences" again and select "Settings-User"
+- add this (use your copy and pasted line):
+```
+{
+  ...
+	"color_scheme": "{path to your current theme}"
+}
+```
+- Save and restart Sublime Text.
 
 ### Options ###
 "night" - Set the path from root sublime app data directory to the theme (e.g: Packages/MyThemes/HelloKitty.tmTheme)  
