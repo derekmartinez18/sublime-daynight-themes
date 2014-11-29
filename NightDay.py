@@ -22,6 +22,7 @@ class change_enabledCommand(sublime_plugin.ApplicationCommand):
 			app_settings.set("automatic", "no")
 		else:
 			app_settings.set("automatic", "yes")
+			doTimeCheck()
 
 		sublime.save_settings("NightDay.sublime-settings")
 
