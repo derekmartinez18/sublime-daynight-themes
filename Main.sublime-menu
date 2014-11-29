@@ -15,13 +15,13 @@
                     },
                     {
                         "caption": "Toggle Override",
-                        "command": "toggle_dn"
-                        },
+                        "command": "change_enabled"
+                    },
                     {
                         "caption": "Preferences: Time Schemes",
                         "command": "open_file",
                         "args": {
-                            "file": "${packages}/NightDay/NightDay.sublime-settings"
+                            "file": "${packages}/User/NightDay.sublime-settings"
                         }
                     },
                     {
