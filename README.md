@@ -34,3 +34,4 @@ Having issue with themes changing back and forth? Try this:
 ### ToDo ###
 - Better settings
 - Override ability
+- Make stable =))
